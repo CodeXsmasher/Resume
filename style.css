@@ -1,0 +1,73 @@
+#cv-form{
+    /*display: none;*/
+}
+#resu1{
+    display: none;
+}
+
+.myimg{
+    max-width:100%;
+    height: auto;
+    margin-right: 35%;
+    margin-left: 37%;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+.pad{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.w{
+    padding-top: 14px;
+    padding-bottom: 8px;
+}
+.a{
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+@media print{
+    #down{
+        display:none;
+    }
+ }
+ @media print{
+    .hide{
+        display:none;
+
+    }
+    .w3-content .w3-row-padding{
+        width: 1000px;
+        height: 2000px;
+        
+    }
+    .b{
+        font-size: 30px;
+    }
+    #emailT, #destT, #contactT, #addressT, #langT, #agT, #skillT, #hobT{
+        font-size: 26px;
+    }
+    .q{
+        font-size:25px;
+    }
+    .z{
+        font-size: 25px;
+    }
+    #nameT{
+        font-size: 40px;
+    }
+    #uwu{
+        font-size: 35px;
+    }
+    #fb1, #git1, #link1{
+        font-size: 20px;
+    }
+    .y{
+        font-size: 25px;
+    }
+    .b{
+        font-size: 25px;
+    }
+    .myimg{
+        width: 10px;
+    }  
+ }
